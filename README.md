@@ -2,7 +2,8 @@
 
 ## Team
 
- - [Volodymyr Chernetskyi](https://github.com/chernetskyi)
+ - [Olena Matrunych](https://github.com/matrunych)
+ - [Danylo Nazaruk](https://github.com/H4wking)
 
 ## Prerequisites
 

@@ -18,7 +18,7 @@ add_executable(add src/main.cpp)
 target_link_libraries(add operations)
 
 # Add external packages
-find_package(Boost 1.71.0 COMPONENTS program_options REQUIRED)
+find_package(Boost 1.65.1 COMPONENTS program_options REQUIRED)
 include_directories(${Boost_INCLUDE_DIR})
 target_link_libraries(add Boost::program_options)
 
@@ -30,7 +30,6 @@ if (ENABLE_SANITIZERS)
 #    set(SANITIZE_ADDRESS ON)
 #    set(SANITIZE_THREAD ON)
     find_package(Sanitizers)
-
     # CMake targets to which apply sanitizers
     add_sanitizers(operations add)
 endif ()
